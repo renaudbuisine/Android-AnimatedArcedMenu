@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--     Each element will appear in the menu -->
+    <ImageButton
+        android:id="@+id/arced_menu_item_mercur"
+        android:layout_height="@dimen/view_arced_menu_items_size"
+        android:layout_width="@dimen/view_arced_menu_items_size"
+        android:src="@drawable/ic_menu_mercur"
+        android:background="@android:color/transparent"
+        android:onClick="onMenuItemClick"/>
+    <ImageButton
+        android:id="@+id/arced_menu_item_venus"
+        android:layout_height="@dimen/view_arced_menu_items_size"
+        android:layout_width="@dimen/view_arced_menu_items_size"
+        android:src="@drawable/ic_menu_venus"
+        android:background="@android:color/transparent"
+        android:onClick="onMenuItemClick"/>
+    <ImageButton
+        android:id="@+id/arced_menu_item_earth"
+        android:layout_height="@dimen/view_arced_menu_items_size"
+        android:layout_width="@dimen/view_arced_menu_items_size"
+        android:src="@drawable/ic_menu_earth"
+        android:background="@android:color/transparent"
+        android:onClick="onMenuItemClick"/>
+    <ImageButton
+        android:id="@+id/arced_menu_item_mars"
+        android:layout_height="@dimen/view_arced_menu_items_size"
+        android:layout_width="@dimen/view_arced_menu_items_size"
+        android:src="@drawable/ic_menu_mars"
+        android:background="@android:color/transparent"
+        android:onClick="onMenuItemClick"/>
+    <ImageButton
+        android:id="@+id/arced_menu_item_jupiter"
+        android:layout_height="@dimen/view_arced_menu_items_size"
+        android:layout_width="@dimen/view_arced_menu_items_size"
+        android:src="@drawable/ic_menu_jupiter"
+        android:background="@android:color/transparent"
+        android:onClick="onMenuItemClick"/>
+    <ImageButton
+        android:id="@+id/arced_menu_item_saturn"
+        android:layout_height="@dimen/view_arced_menu_items_size"
+        android:layout_width="@dimen/view_arced_menu_items_size"
+        android:src="@drawable/ic_menu_saturn"
+        android:background="@android:color/transparent"
+        android:onClick="onMenuItemClick"/>
+    <ImageButton
+        android:id="@+id/arced_menu_item_neptune"
+        android:layout_height="@dimen/view_arced_menu_items_size"
+        android:layout_width="@dimen/view_arced_menu_items_size"
+        android:src="@drawable/ic_menu_neptune"
+        android:background="@android:color/transparent"
+        android:onClick="onMenuItemClick"/>
+    <ImageButton
+        android:id="@+id/arced_menu_item_uranus"
+        android:layout_height="@dimen/view_arced_menu_items_size"
+        android:layout_width="@dimen/view_arced_menu_items_size"
+        android:src="@drawable/ic_menu_uranus"
+        android:background="@android:color/transparent"
+        android:onClick="onMenuItemClick"/>
+
+</LinearLayout>

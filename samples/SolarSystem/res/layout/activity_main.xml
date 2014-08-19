@@ -1,0 +1,41 @@
+<!-- tag to create a relative layout with an arced menu in it -->
+<com.renaudbuisine.animatedarcedmenu.views.ArcedMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.renaudbuisine.animatedmenu.activities.BasicExampleActivity"
+    custom:src="@drawable/galaxy_button"
+    custom:menuGravity="bottom|center_horizontal"
+    custom:menuButtonTopMargin="@dimen/view_arced_menu_top_margin"
+    custom:openedMenuRadius="@dimen/view_arced_menu_opened_radius"
+    custom:menuButtonStyle="animatedPicture"
+    custom:menuAnimationDuration="500">
+
+    
+    <ImageView
+        android:id="@+id/imageView_background"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@null"
+        android:background="@android:color/black"
+        />
+    <ImageView
+        android:id="@+id/imageView_invisible_background"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@null"
+        android:visibility="gone"
+        android:background="@android:color/black"
+        />
+
+<!--     Fragment for the content of the arced menu -->
+    <fragment
+        android:id="@+id/arced_menu"
+        android:name="com.renaudbuisine.animatedarcedmenu.samples.solarsystem.activities.fragments.PlanetsArcedMenuFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        tools:layout="@layout/fragment_arced_menu"/>
+
+</com.renaudbuisine.animatedarcedmenu.views.ArcedMenuLayout>

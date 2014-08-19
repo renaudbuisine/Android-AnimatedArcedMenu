@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcedMenuLayout">
+<!--         Radius of the menu's arced -->
+        <attr name="openedMenuRadius" format="dimension" />
+<!--         Image resource for the menu's button -->
+        <attr name="src" format="reference" />
+<!--         Duration for opening animation -->
+        <attr name="menuAnimationDuration" format="integer" />
+<!--         Gravity of the menu's button -->
+        <attr name="menuGravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+            <flag name="center_vertical" value="0x10" />
+            <flag name="center_horizontal" value="0x01" />
+            <flag name="center" value="0x11" />
+        </attr>
+<!--         Style to the menu's button -->
+        <attr name="menuButtonStyle">
+<!--             No button visible -->
+            <flag name="none" value="0" />
+<!--             Just a button -->
+            <flag name="pictureOnly" value="1" />
+<!--             Button with image and color changings on press -->
+            <flag name="animatedPicture" value="2" />
+        </attr>
+<!--         Left margin for the button (and menu), can be negative -->
+        <attr name="menuButtonLeftMargin" format="dimension" />
+<!--         Top margin for the button (and menu), can be negative -->
+        <attr name="menuButtonTopMargin" format="dimension" />
+<!--         Menu's button width (WRAP_CONTENT by default) -->
+        <attr name="menuButtonWidth" format="dimension" />
+<!--         Menu's button height (WRAP_CONTENT by default) -->
+        <attr name="menuButtonHeight" format="dimension" />
+    </declare-styleable>
+</resources>

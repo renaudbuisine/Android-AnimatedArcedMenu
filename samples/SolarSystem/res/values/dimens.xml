@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="view_arced_menu_opened_radius">100dp</dimen>
+    <dimen name="view_arced_menu_top_margin">-30dp</dimen>
+    <dimen name="view_arced_menu_items_size">40dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>
